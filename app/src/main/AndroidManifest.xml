@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.gpu"
+    tools:ignore="GoogleAppIndexingWarning">
+<uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/gpu"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/gpu"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.gpu.Review_electronics_detail" android:exported="false"></activity>
+        <activity android:name="com.example.gpu.Review_Gpu" android:exported="false"/>
+        <activity android:name="com.example.gpu.Admin_dashboard" android:exported="false"/>
+        <activity android:name="com.example.gpu.forget_password" android:exported="false"/>
+        <activity android:name="com.example.gpu.nav_header_hh" android:exported="false"/>
+        <activity android:name="com.example.gpu.profile" android:exported="false"/>
+
+        <activity android:name="com.example.gpu.About" android:exported="false"/>
+        <activity android:name="com.example.gpu.cart_order_activity" android:exported="false"/>
+        <activity android:name="com.example.gpu.Order_detail_acivity" android:exported="false" />
+        <activity android:name="com.example.gpu.Order_slip" android:exported="false"/>
+        <activity android:name="com.example.gpu.My_order" android:exported="false"/>
+        <activity
+            android:name="com.example.gpu.cart_detail_activity"
+            android:parentActivityName="com.example.gpu.MyCart" android:exported="false" />
+        <activity android:name="com.example.gpu.MyCart" android:exported="false" />
+        <activity android:name="com.example.gpu.Order_Activity" android:exported="false"/>
+        <activity android:name="com.example.gpu.elec_detail_activity" android:exported="false"/>
+        <activity android:name="com.example.gpu.detailactivity" android:exported="false" />
+
+        <activity
+            android:name="com.example.gpu.MainActivity"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="false"/>
+        <activity android:name="com.example.gpu.Admin"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.gpu.signup"
+            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.gpu.Welcome"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustPan"
+            android:exported="false"/>
+        <activity
+            android:name="com.example.gpu.Splash_screen"
+            android:exported="true"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.example.gpu.NotificationService.MyNotificationPublisher"/>
+    </application>
+
+</manifest>

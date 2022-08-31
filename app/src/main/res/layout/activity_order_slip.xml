@@ -1,0 +1,224 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Order_slip">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:id="@+id/main"
+        android:layout_height="match_parent">
+
+
+        <TextView
+            android:id="@+id/slipname"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="Placeholder"
+            android:textColor="#000"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:id="@+id/rs"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slipname"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:gravity="end"
+            android:padding="8dp"
+            android:text="€"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="40000"
+            android:padding="8dp"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/rs"
+            android:layout_below="@id/slipname"
+            android:id="@+id/orderprice"
+            android:layout_marginLeft="4dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quantity"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:padding="6dp"
+            android:layout_below="@id/orderprice"
+            android:gravity="end"
+            android:id="@+id/slipquantity"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4"
+            android:padding="6dp"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/slipquantity"
+            android:layout_below="@id/orderprice"
+            android:id="@+id/quantityoforder"
+            android:layout_marginLeft="4dp"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"></TextView>
+
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Total Price"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_below="@id/slipquantity"
+            android:gravity="end"
+            android:id="@+id/rsssss"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"></TextView>
+
+
+        <TextView
+            android:id="@+id/totalpriceoforder"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/slipquantity"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:layout_toRightOf="@id/rsssss"
+            android:gravity="end"
+            android:padding="10dp"
+            android:text="€"
+            android:textAlignment="textEnd"
+            android:textColor="#000"
+            android:textSize="15dp"
+            android:textStyle="bold"></TextView>
+
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="4000"
+            android:textSize="15dp"
+            android:layout_toRightOf="@id/totalpriceoforder"
+            android:padding="10dp"
+            android:layout_below="@id/slipquantity"
+            android:textColor="#000"
+            android:id="@+id/totalpriceof"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"></TextView>
+
+
+        <TextView
+            android:id="@+id/cell"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/totalpriceof"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"
+            android:padding="10dp"
+            android:text="03069719267"
+            android:textColor="#000"
+            android:textSize="15dp"></TextView>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="House 60 "
+            android:textSize="15dp"
+            android:padding="8dp"
+            android:layout_below="@id/cell"
+            android:textColor="#000"
+            android:id="@+id/adress"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="5dp"></TextView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Order will be delivered Within 7 Working Days"
+            android:layout_marginLeft="15dp"
+            android:textSize="15dp"
+            android:padding="10dp"
+            android:layout_below="@id/adress"
+            android:id="@+id/announce"
+            android:textColor="#000"
+            android:layout_marginTop="5dp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/announ"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/announce"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="8dp"
+            android:padding="10dp"
+            android:text="Make sure to save your receipt!"
+            android:textSize="20dp"
+            android:textStyle="bold"></TextView>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_below="@id/announ"
+            android:id="@+id/view"
+            android:background="#C4B8B8"
+            android:layout_height="2dp"/>
+
+        <ImageView
+            android:id="@+id/happy"
+            android:layout_width="200dp"
+            android:layout_height="140dp"
+            android:layout_below="@id/view"
+            android:src="@drawable/happppy" />
+
+
+        <Button
+            android:id="@+id/saveyourslip"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/happy"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:background="@drawable/btndesign"
+            android:padding="20dp"
+            android:text="Save your receipt"
+            android:textColor="#f4f4f4" />
+
+
+
+
+
+
+    </RelativeLayout>
+
+
+
+
+
+</ScrollView>

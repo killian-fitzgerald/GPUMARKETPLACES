@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "520634182871",
+    "project_id": "gpu-market-place",
+    "storage_bucket": "gpu-market-place.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:520634182871:android:4b3354399c3ecbfaf95492",
+        "android_client_info": {
+          "package_name": "com.example.gpu"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "520634182871-cs4mvt1rlacgs244haftsl09jh40apnk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA5bp6-z5B5VL2lE_nB5Gyk_5gu_SCoHH0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "520634182871-cs4mvt1rlacgs244haftsl09jh40apnk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

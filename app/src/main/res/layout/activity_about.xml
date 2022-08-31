@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="#1C1C3C"
+    android:layout_height="match_parent"
+    tools:context=".About">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <ImageView
+            android:id="@+id/logo"
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:padding="20dp"
+            android:src="@drawable/slpsh_image" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Our Mission"
+            android:textSize="20dp"
+            android:layout_below="@id/logo"
+            android:gravity="center"
+            android:id="@+id/mission"
+            android:textColor="#FF0303"
+            android:layout_height="wrap_content"/>
+
+
+        <TextView
+            android:id="@+id/miss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/mission"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="GPU Marketplace was created to avoid the growing issue of GPU price scalping, we are dedicated to finding GPUs with the best prices (Second hand or new) and allowing users
+to purchase them without the issues of bots buying up large quanities of stock that companies like Newegg or Amazon face."
+            android:textColor="#f4f4f4"
+            android:textSize="13dp" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Our Vision"
+            android:layout_marginTop="5dp"
+            android:textSize="20dp"
+            android:layout_below="@id/miss"
+            android:gravity="center"
+            android:id="@+id/vission"
+            android:textColor="#FF0303"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/viss"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/vission"
+            android:layout_marginLeft="3dp"
+            android:layout_marginRight="3dp"
+            android:text="Our vision is to grow a community of buyers and sellers and allow for an open market for GPUs without customers having to worry
+about getting ripped off and paying inflated prices for their graphics cards. We hope to deploy a team of moderators in the future to further compbat the issue of botting. Our end goal is simple
+Easily availible GPUs"
+            android:textColor="#f4f4f4"
+
+            android:textSize="13dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:text="Contact us!"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_below="@id/viss"
+            android:gravity="center"
+            android:id="@+id/contact"
+            android:textColor="#FF0303"
+            android:layout_height="wrap_content"/>
+
+        <TextView
+            android:id="@+id/email1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/contact"
+            android:gravity="center"
+            android:text="Contact us at any time with any inquiries ! we can be found at : GPUMARKETPLACE@gmail.com or our website : WWW.GPU-MARKETPLACE.COM"
+            android:textColor="#f4f4f4"
+            android:textSize="15dp" />
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+</ScrollView>

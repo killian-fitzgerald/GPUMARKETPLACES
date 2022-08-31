@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Review_detail_activity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:padding="30dp"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/img"
+            android:layout_marginTop="20dp"
+            android:id="@+id/imagennnn"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Name/model"
+            android:descendantFocusability="beforeDescendants"
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:id="@+id/model"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Description"
+            android:focusableInTouchMode="true"
+            android:id="@+id/description"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/><EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Price"
+        android:inputType="number"
+        android:id="@+id/price"
+        android:focusableInTouchMode="true"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"/>
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Discount"
+            android:id="@+id/discount"
+            android:focusableInTouchMode="true"
+            android:layout_marginTop="30dp"
+            android:textSize="20dp"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:id="@+id/updateitem"
+            android:textColor="#f4f4f4"
+            android:textAllCaps="false"
+            android:background="@drawable/btndesign"
+            android:text="Update Item" />
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:textSize="20dp"
+            android:textAllCaps="false"
+            android:textColor="#f4f4f4"
+            android:background="@drawable/btndesign"
+            android:id="@+id/deleteitem"
+            android:text="Delete Item" />
+
+    </LinearLayout>
+</ScrollView>
